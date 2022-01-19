@@ -22,7 +22,7 @@ function HomeScreen({ navigation }) {
 
   return (
     <View>
-      <Text> Home screen! </Text>
+      <Text> Home screen!   new Added</Text>
 
     </View>
   );
@@ -34,7 +34,7 @@ export default function App() {
 
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} options={{tabBarIcons}}/>
+        <Tab.Screen name="Home" component={HomeScreen} options={{ tabBarIcons }} />
         <Tab.Screen name="Detail" component={DetailScreen} />
       </Tab.Navigator>
     </NavigationContainer>
